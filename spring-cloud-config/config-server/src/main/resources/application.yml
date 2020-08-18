@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wellzhi/config-repo.git
+          search-paths: config
+          # 如果Git仓库为公开仓库，可以不填写用户名和密码
+          username: 381197562@qq.com
+          password:
+          skip-ssl-validation: true
+      label: master
+server:
+  port: 8888
+
