@@ -17,6 +17,7 @@
         <module>spring-cloud-hystrix</module>
         <module>spring-cloud-hystrix-dashboard</module>
         <module>spring-cloud-hystrix-turbine</module>
+        <module>spring-cloud-tx-lcn</module>
     </modules>
 
 
@@ -51,6 +52,11 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>3.1.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
