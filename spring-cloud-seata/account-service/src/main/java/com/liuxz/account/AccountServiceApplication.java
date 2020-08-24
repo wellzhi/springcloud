@@ -1,4 +1,4 @@
-package com.liuxz.good;
+package com.liuxz.account;
 
 import com.liuxz.seata.common.DataSourceProxyAutoConfiguration;
 import org.mybatis.spring.annotation.MapperScan;
@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Import;
 
 /**
@@ -14,7 +15,8 @@ import org.springframework.context.annotation.Import;
  */
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class,scanBasePackages = "com.liuxz")
 @Import(DataSourceProxyAutoConfiguration.class)
-@MapperScan("com.liuxz.good.repo.mapper")
+@MapperScan("com.liuxz.account.repo.mapper")
+@EnableEurekaClient
 public class AccountServiceApplication {
     /**
      * logger instance

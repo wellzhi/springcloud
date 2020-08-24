@@ -1,8 +1,7 @@
-package com.liuxz.good.repo.mapper;
+package com.liuxz.account.repo.mapper;
 
-import com.liuxz.good.repo.entity.Account;
+import com.liuxz.account.repo.entity.Account;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.apache.ibatis.annotations.Mapper;
 
 /**
  * <p>

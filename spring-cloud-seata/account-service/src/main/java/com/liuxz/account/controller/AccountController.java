@@ -1,6 +1,6 @@
-package com.liuxz.good.controller;
+package com.liuxz.account.controller;
 
-import com.liuxz.good.repo.service.AccountService;
+import com.liuxz.account.repo.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 

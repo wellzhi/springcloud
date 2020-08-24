@@ -1,4 +1,4 @@
-package com.liuxz.good.repo.entity;
+package com.liuxz.account.repo.entity;
 
 import java.math.BigDecimal;
 import com.baomidou.mybatisplus.annotation.TableName;

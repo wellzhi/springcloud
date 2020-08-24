@@ -1,7 +1,7 @@
-package com.liuxz.good.repo.service;
+package com.liuxz.account.repo.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.liuxz.good.repo.entity.Account;
+import com.liuxz.account.repo.entity.Account;
 
 /**
  * <p>

@@ -1,9 +1,9 @@
-package com.liuxz.good.repo.service.impl;
+package com.liuxz.account.repo.service.impl;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.liuxz.good.repo.entity.Account;
-import com.liuxz.good.repo.mapper.AccountMapper;
-import com.liuxz.good.repo.service.AccountService;
+import com.liuxz.account.repo.entity.Account;
+import com.liuxz.account.repo.mapper.AccountMapper;
+import com.liuxz.account.repo.service.AccountService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
